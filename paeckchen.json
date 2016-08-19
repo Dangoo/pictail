@@ -1,0 +1,10 @@
+{
+  "input": {
+    "entry": "./src/script/index.js",
+    "source": "es2015"
+  },
+  "output": {
+    "file": "./dist/script/index.js",
+    "sourceMap": true
+  }
+}

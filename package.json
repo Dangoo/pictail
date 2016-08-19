@@ -1,0 +1,35 @@
+{
+  "name": "pictail",
+  "version": "1.0.0",
+  "description": "A random image gallery for '10k Apart'",
+  "main": "dist/server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "fs-extra": "^0.30.0",
+    "mkdirp": "^0.5.1",
+    "paeckchen-cli": "^0.4.0",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "build:js-server": "node scripts/build-js.js",
+    "build": "npm run build:js-server",
+    "start": "node ./dist/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dangoo/pictail.git"
+  },
+  "keywords": [
+    "10k",
+    "Apart"
+  ],
+  "author": "Daniel Gooß",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dangoo/pictail/issues"
+  },
+  "homepage": "https://github.com/Dangoo/pictail#readme"
+}
